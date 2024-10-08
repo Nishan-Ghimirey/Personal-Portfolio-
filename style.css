@@ -119,3 +119,121 @@ body {
     color: rgb(105, 105, 105);
     transition: .5s;
 }
+
+.contact-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form {
+    padding: 40px 50px;
+    border-radius: 20px;
+    background-color: rgb(43, 46, 75);
+    justify-content: space-evenly;
+    margin-left: 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactinp {
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 50px; 
+}
+
+.formsg {
+    height: 150px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    width: 400px;
+}
+
+.btnsmt {
+    height: 29px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.btnsmt:hover {
+    background-color: rgb(0, 255, 238);
+}
+
+.contactus {
+    color: #ededed;
+    font-size: 40px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.icons {
+    display: flex;
+    position: relative;
+    padding: 20px 0;
+    color: white;
+}
+
+.icons .icon1 {
+    min-width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 29px;
+}
+
+.texts {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+    margin-right: 29vh;
+}
+
+.texts h1 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    text-decoration: underline;
+}
+
+.aboutme {
+    color: #ededed;
+    display: flex;
+    text-justify: auto;
+    text-align: center;
+    margin: 29vh 20vh;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 550;
+    gap: 10px;
+}
+
+.aboutme a {
+    color: rgb(120, 120, 255);
+}
+
+.aboutme a:hover {
+    color: cyan;
+}
