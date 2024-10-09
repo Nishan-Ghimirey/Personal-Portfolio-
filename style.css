@@ -9,7 +9,6 @@ body {
 }
 
 .header {
-    position: fixed;
     top: 0;
     left: 0;
     padding: 20px 10%;
@@ -48,8 +47,8 @@ body {
 .home {
     display: flex;
     align-items: center;
-    height: 100vh;
-    padding: 0 10%;
+    height: 80vh;
+    padding: 0 5%;
 }
 
 .home-cont {
@@ -70,12 +69,12 @@ body {
 .home-cont p {
     font-size: 18px;
     line-height: 1.2;
-    margin-right: 70vh;
+    margin-right: 40vh;
     word-spacing: 4px;
 }
 
 .media {
-    margin-top: -120px;
+    margin-top: -10vh;
 }
 
 .media h1 {
@@ -212,6 +211,15 @@ body {
     margin-right: 29vh;
 }
 
+.texts a {
+    color: #ededed;
+    text-decoration: none;
+}
+
+.texts a:active {
+    color: #ededed;
+}
+
 .texts h1 {
     font-weight: 700;
     margin-bottom: 2px;
@@ -223,11 +231,12 @@ body {
     display: flex;
     text-justify: auto;
     text-align: center;
-    margin: 29vh 20vh;
+    margin: 34vh 20vh;
     flex-direction: column;
     font-size: 20px;
     font-weight: 550;
     gap: 10px;
+
 }
 
 .aboutme a {
@@ -237,3 +246,104 @@ body {
 .aboutme a:hover {
     color: cyan;
 }
+
+.home-img {
+    color: white;
+    margin-right: 100px;
+    padding: 0;
+    margin-top: -5vh;
+}
+
+.memory h1 {
+    color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.nikita {
+    display: flex;
+    padding: 0 5%;
+}
+
+.nikitatxt {
+    color: #ededed;
+    padding: 5% 5%;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+}
+
+.shuvam {
+    display: flex;
+    padding: 5% 5%;
+    height: 30vh;
+    margin-top: 100px;
+}
+
+.shuvamtxt {
+    color: #ededed;
+    padding: 5% 5%;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 50px;
+}
+
+.sabin {
+    display: flex;
+    padding: 5% 5%;
+    height: 30vh;
+    margin-top: 450px;
+}
+
+.sabintxt {
+    color: #ededed;
+    padding: 5% 5%;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 150px;
+}
+
+.krisha {
+    display: flex;
+    padding: 5% 5%;
+    height: 30vh;
+    margin-top: 55vh;
+}
+
+.krishatxt {
+    color: #ededed;
+    padding: 5% 5%;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 60px;
+}
+
+hr.new1 {
+    border: 2px solid white;
+    margin-top: 50vh;
+}
+
+.mom {
+    margin-top: 10vh;
+    margin: 10vh 35%;
+}
+
+.momtxt {
+    color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 30px;
+    margin-top: -10vh;
+    text-decoration: underline;
+    font-style: italic;
+}   
